@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator</title>
+
+</head>
+<body>
+
+  <div class="logo">
+      <img src="./images/logo.svg" alt="Splitter">
+  </div>
+
+
+<!--Container -->
+<div class="container">
+
+    <div class="input-c">
+      <p>Bill</p>
+      <label><img src="./images/icon-dollar.svg"></label>
+      <input type="text" placeholder="0">
+      
+     <!--Discount--> 
+      <div class="tip-box">
+        <p>Select Tip %</p>
+        <div id="tip-box">
+          <input type="radio" name="tip" value="5">
+          <label class="radio"><span>5%</span></label>
+          <input type="radio" name="tip" value="10">
+          <label class="radio"><span>10%</span></label>
+          <input type="radio" name="tip" value="15">
+          <label class="radio"><span>15%</span></label>
+          <input type="radio" name="tip" value="25">
+          <label class="radio"><span>25%</span></label>
+          <input type="radio" name="tip" value="50">
+          <label class="radio"><span>50%</span></label> 
+          <label class="radio"><span>Custom</span></label> 
+        </div>
+      </div>
+
+    <!--Number People-->
+      <p>Number of People</p>
+      <label><img src="./images/icon-person.svg"></label>
+      <input type="text" placeholder="0">
+    </div>
+
+   <!--Div Price-->
+    <div class="sfondo">
+        <div>
+          <p class="paragraph">TIP AMOUNT</p><span class="prezzo">$0.00</span>
+        </div>
+        <div>
+          <p class="paragraph">TOTAL</p><span class="prezzo">$0.00</span>
+        </div>
+        <button type="button" class="reset">RESET</button>
+      </div>
+  
+    </div>
+
+  
+  </body>
+  </html>
